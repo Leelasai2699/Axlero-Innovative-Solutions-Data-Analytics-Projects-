@@ -1,0 +1,13 @@
+Product_ID,Product_Name,Category,Product_Cost
+P001,NovaBook Pro 14,Laptop,620
+P002,NovaBook Air 13,Laptop,480
+P003,NovaPhone X,Smartphone,430
+P004,NovaPhone Lite,Smartphone,240
+P005,NovaTab Plus,Tablet,290
+P006,NovaTab Mini,Tablet,180
+P007,NovaWatch 2,Wearable,120
+P008,NovaBuds Pro,Audio,75
+P009,NovaSound Speaker,Audio,95
+P010,NovaCharge 65W,Accessories,28
+P011,NovaPower Bank,Accessories,35
+P012,NovaHub USB-C,Accessories,42
