@@ -1,0 +1,22 @@
+
+select
+    year,
+    quarter,
+    month,
+    country,
+    region,
+    category,
+    count(distinct transaction_id) as total_transactions,
+    sum(revenue) as total_revenue,
+    sum(profit) as total_profit,
+    sum(shipping_cost) as total_shipping_cost,
+    sum(profit) / nullif(sum(revenue), 0) * 100
+        as overall_margin_percentage
+from {{ ref('mart_metricmind') }}
+group by
+    year,
+    quarter,
+    month,
+    country,
+    region,
+    category
